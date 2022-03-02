@@ -1,16 +1,4 @@
-
-.style
-{
-@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
-}
-
-/*
-	Tessellate by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+CSS
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -42,8 +30,9 @@ body {
 	line-height: 1;
 }
 
-ol, ul {color:
-		list-style;}
+ol li {
+	padding-left: 0.25em;
+}
 
 blockquote, q{ 
 	quotes: italic;
@@ -55,7 +44,7 @@ blockquote, q{
 	}
 
 	#nav {
-		background-color: #2f5a41;
+		background-color:rgb(9, 78, 55);
 		display: inline;
 		text-align: center;
 		position: fixed;
@@ -69,13 +58,14 @@ blockquote, q{
 		}
 	
 		
-		ul {
-  list-style-type:none;
-  margin: 0;
-  padding: 20;
-  overflow: scroll;
-  background-color:rgb(23, 71, 49);
-}
+	ul {
+		list-style-type:none;
+		margin: 0;
+		padding: 20;
+		overflow: scroll;
+		background-color:rgb(23, 71, 49); 
+		width: 50%;
+  	}
 
 li {
   float: left;
@@ -136,7 +126,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: tran;
+		background: rgb(238, 218, 182);
 		font-family: 'Ultra', serif;
 		font-weight: 300;
 		font-size: 17pt;
@@ -157,7 +147,7 @@ input, select, textarea {
 		}
 
 	.dark {
-		color: rgba(13, 85, 57,);
+		color:  rgb(9, 78, 55);
 	}
 
 	input, textarea, select {
@@ -177,15 +167,15 @@ input, select, textarea {
 
 	}
 	h1, h4, h5, h6 {
-		color: rgb(247, 231, 202);
+		color:  rgb(238, 218, 182);
 		margin: 0.5em 0.5em 0.5em 0.5em;
 		font-weight: 100;
 		line-height: 1.5em;
 	}
 
  	h2 {
-		color: rgb(166, 214, 298);
-		margin: 0.5em 0.5em 0.5em 0.5em;
+		color:  rgb(238, 218, 182);
+		margin: 0em 0em 0em 0em;
 		font-weight: 100;
 		line-height: 1.5em;
 	} 
@@ -196,7 +186,7 @@ input, select, textarea {
 	}
 
 	.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-		color: rgb(161, 182, 172);
+		color: rgb(161, 207, 185);
 	}
 
 	strong, b {
@@ -205,7 +195,7 @@ input, select, textarea {
 	}
 
 	.dark strong, .dark b {
-		color: rgb(105, 153, 145);
+		color: rgb(161, 207, 185);
 		color: rgba(255, 255, 255, 0.85);
 	}
 
@@ -229,7 +219,7 @@ input, select, textarea {
 
 	.dark a {
 		color: rgb(255, 255, 255);
-		border-bottom-color: rgba(255, 255, 255, 0.5);
+		border-bottom-color: rgb(161, 207, 185);
 	}
 
 		.dark a:hover {
@@ -308,45 +298,47 @@ input, select, textarea {
 
 /* Container */
 
-	.container {
-		margin: 0 auto;
-		max-width: 100%;
-		width: 1360px;
-	}
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1360px;
+}
 
-		.container.medium {
-			width: 1020px;
-		}
+    .container.medium {
+        width: 1020px;
+    }
 
-		@media screen and (max-width: 1680px) {
+    @media screen and (max-width: 1680px) {
 
-			.container {
-				width: 1200px;
-			}
+        .container {
+            width: 1200px;
+        }
 
-				.container.medium {
-					width: 900px;
-				}
+            .container.medium {
+                width: 900px;
+            }
 
-		}
+    }
 
-		@media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1280px) {
 
-			.container {
-				width: 960px;
-			}
+        .container {
+            width: 960px;
+        }
 
-				.container.medium {
-					width: 720px;
-				}
+            .container.medium {
+                width: 720px;
+            }
 
-		}
+    }
 
-		@media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1000px) {
 
-			.container {
-				width: 100% !important;
-			}
+        .container {
+            width: 100% !important;
+        }
+
+    }
 
 
 /* Row */
@@ -1687,7 +1679,7 @@ input, select, textarea {
 			border: 0;
 			box-shadow: inset 0 0 0 1px #e6e6e6;
 			border-radius: 100%;
-			color: rgb(153, 81, 81);
+			color:  rgb(104, 46, 46);
 		}
 
 			ul.icons a:hover {
@@ -2116,9 +2108,9 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: rgb(20, 61, 45);
+		background:  rgb(9, 78, 55);
 		box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
-		color: rgb(12, 66, 48);
+		color:  rgb(9, 78, 55)
 	}
 
 		.dark input[type="button"]:hover,
@@ -2243,26 +2235,27 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0.5em;
-		background-image: 
-		background-size; zoom: cover;
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		padding: 2em 0 2em 0;
+	    background-image: url(images/Backdrop.jpg), url(images/Backdrop.jpg);
+    	background-size: auto, cover;
+    	background-position: top left, center center;
+   		background-repeat: repeat, no-repeat;
+		padding: 14em 0 14em 0;
 		text-align: center;
-		color: rgb(19, 54, 35);}
+		color: rgb(19, 54, 35);
+	}
 	
 	
 
 	#header header h3 {
 		position: center;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/Backdrop.jpg");
+		background-image: url("images/Backdrop.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		padding: 0em 0 0em 0;
 		text-align: center;
-		color: rgb(19, 54, 35);}
+		color:  rgb(9, 78, 55);}
 
 		#header header h1 {
 			font-size: 2.25em;
@@ -2291,7 +2284,7 @@ input, select, textarea {
 	}
 
 		.main > header {
-			background: rgb(123, 60, 60);
+			background: rgb(104, 46, 46);
 			text-align: center;
 			padding: 5em 0 5em 0;
 			margin: 0;
@@ -2327,7 +2320,9 @@ input, select, textarea {
 
 			.main > .content.dark3 {
 				padding: 20%;
-				background: url("images/backdrop.jpg")}
+				background: rgb(182, 133, 65);
+				width:1600px;height:900px"
+			}
 		
 
 			.main > .content.dark4 {
@@ -2337,23 +2332,29 @@ input, select, textarea {
 
 
 			.main > .content.dark {
-				background: rgb(8, 66, 47);
+				background: rgb(9, 78, 55);
 			}
 
 			.main > .content.style1 {
-				background: url("images/backdrop.jpg")}
+				background: rgb(104, 46, 46)
+			}
 
 			.main > .content.style2 {
-				background: img("IMAGES/POTHOUSE.PNG") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+				background: rgb(209, 117, 117)
 			}
 
 			.main > .content.style3 {
-				background: rgb(219, 137, 43);
+				background: rgb(238, 218, 182);
+				background-image: url(../../images/Backdrop.jpg);
+				background-size: auto, cover;
+				background-position: top left, center center;
+				   background-repeat: repeat, no-repeat;
+				padding: 14em 0 14em 0;
 			}
 
 			.main > .content.style4 {
 				padding-top: 0;
-				background: rgb(235, 201, 156);
+				background: rgb(238, 218, 182);
 			}
 
 /* Footer */
@@ -2363,13 +2364,13 @@ input, select, textarea {
 		margin: 0;
 		text-align: center;
 		padding: 4em 0 8em 0;
-		box-shadow: inset 0 1px 0 0 pink
+		box-shadow: inset 0 1px 0 0
 	}
 
 		#footer .copyright {
 			margin-top: 3em;
 			font-size: 0.8em;
-			color: rgb(95, 45, 45);
+			color: rgb(9, 78, 55);
 		}
 
 			#footer .copyright a {
@@ -2435,7 +2436,7 @@ input, select, textarea {
 		/* Basic */
 
 			header, footer, h2, h3, h4, h5, h6, header > p {
-				text-align: center;
+				text-align: justify;
 			}
 
 		/* Sections/Article */
@@ -2487,7 +2488,7 @@ input, select, textarea {
 					}
 
 					.main > header br {
-						display: none;
+						display: flex;
 					}
 
 					.main > header p {
@@ -2538,10 +2539,10 @@ input, select, textarea {
 		/* Button */
 
 			.button {
-				padding-left: 0;
-				padding-right: 0;
+				padding-left: 10%;
+				padding-right: 10%;
 				width: 100%;
-				max-width: 24em;
+				max-width: 14em;
 			
 			}
 
@@ -2556,7 +2557,7 @@ input, select, textarea {
 			ul.menu li {
 				border: 0;
 				padding: 0;
-				display: float;
+				display: flex;
 				margin: 1em 0 1em 0;
 			}
 
@@ -2595,7 +2596,7 @@ input, select, textarea {
 					margin: 0;
 					padding: 0;
 					overflow: hidden;
-					background-color: black;
+					background-color:#deece2;
 				  }
 				  
 				  li {
@@ -2604,7 +2605,7 @@ input, select, textarea {
 				  
 				  li a {
 					display: float;
-					color: rgb(16, 78, 44);
+					color: rgb(9, 78, 55);
 					text-align: justify;
 					padding: 14px 16px;
 					text-decoration: none;
@@ -2612,5 +2613,9 @@ input, select, textarea {
 				  
 				  /* Change the link color to #111 (black) on hover */
 				  li a:hover {
-					background-color: rgb(23, 73, 42);
+					background-color: rgb(161, 207, 185);
 				  }
+				}
+			
+
+		

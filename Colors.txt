@@ -1,0 +1,23 @@
+ Pale orange
+ 
+ rgb(238, 218, 182)
+
+ Pale green
+
+rgb(161, 207, 185)
+
+
+Paler green
+
+#deece2
+
+ Dark green
+ 
+ rgb(9, 78, 55)
+
+ Burnt RED
+
+ rgb(104, 46, 46)
+
+
+
