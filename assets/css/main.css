@@ -63,8 +63,8 @@ blockquote, q{
 		margin: 0;
 		padding: 20;
 		overflow: scroll;
-		background-color:rgb(23, 71, 49); 
-		width: 50%;
+		background-color: rgb(238, 218, 182);
+		width: 100%
   	}
 
 li {
@@ -73,7 +73,7 @@ li {
 
 li a {
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgb(209, 142, 16);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -81,13 +81,13 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: rgb(238, 218, 182);
+  background-color: rgb(104, 46, 46);
 }
 			
 
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 3em;
 }
 
 body {
@@ -267,7 +267,8 @@ input, select, textarea {
 	}
 
 	header {
-		margin-bottom: 2em;
+		margin-bottom: 0em;
+		border: 10%;
 	}
 
 		header h1, header h2, header h3, header h4, header h5, header h6 {
@@ -1604,7 +1605,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			border-radius: 0.5em;
+			border-radius: .5em;
 		}
 
 		.image.featured {
@@ -2068,8 +2069,8 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: #deece2;
-		padding: 0.85em 3em 0.85em 3em;
-		border-radius: 0.25em;
+		padding: 0.85em 2.5em 0.85em 2.5em;
+		border-radius: 2.5em;
 		cursor: pointer;
 		border: 0;
 		color: rgb(8, 56, 40);
@@ -2233,12 +2234,12 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		position: relative;
-		margin: 0.5em;
-	    background-image: url(images/Backdrop.jpg), url(images/Backdrop.jpg);
-    	background-size: auto, cover;
+		background-image: url(images/backdrop2.JPG), url(images/backdrop2.jpg);
+    	background-size: contain;
     	background-position: top left, center center;
    		background-repeat: repeat, no-repeat;
+		position: relative;
+		margin: 0.5em;
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: rgb(19, 54, 35);
@@ -2462,7 +2463,7 @@ input, select, textarea {
 
 			#header {
 				margin: 0 !important;
-				padding: 0em 0em 0em 0em;
+				padding: 3em 3em 3em 3em;
 			}
 
 				#header header p {
