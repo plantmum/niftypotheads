@@ -1,8 +1,14 @@
- Pale orange
+ Pale yellow    
  
  rgb(238, 218, 182)
 
- Pale green
+ 
+ Mustard
+
+rgb(209, 142, 16); 
+
+ 
+Pale green
 
 rgb(161, 207, 185)
 
@@ -11,14 +17,19 @@ Paler green
 
 #deece2
 
- Dark green
+
+Dark green
  
  rgb(9, 78, 55)
 
- Burnt RED
+
+
+
+Burnt RED
 
  rgb(104, 46, 46)
 
-Mustard
+pale red
+rgb(196, 111, 111)
 
-rgb(209, 142, 16); 
+190, 83, 77
